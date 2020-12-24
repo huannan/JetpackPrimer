@@ -7,6 +7,9 @@ import androidx.lifecycle.Observer
 import com.nan.jetpackprimer.R
 import kotlinx.android.synthetic.main.activity_name.*
 
+/**
+ * LiveData基本使用
+ */
 class NameActivity : AppCompatActivity() {
 
     private val viewModel: NameViewModel by viewModels()
