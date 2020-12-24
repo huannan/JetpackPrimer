@@ -37,6 +37,20 @@
             android:text="LiveData结合协程"
             app:routePath="com.nan.jetpackprimer.livedata.simple4.TranslateActivity" />
 
+        <com.nan.jetpackprimer.RouteButton
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ViewModel基本使用"
+            app:routePath="com.nan.jetpackprimer.viewmodel.simple1.UserInfoActivity" />
+
+        <com.nan.jetpackprimer.RouteButton
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ViewModel共享"
+            app:routePath="com.nan.jetpackprimer.viewmodel.simple2.UserMainActivity" />
+
     </LinearLayout>
 
 </ScrollView>
