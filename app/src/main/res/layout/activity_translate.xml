@@ -4,28 +4,21 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <EditText
+        android:id="@+id/edtInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="翻译" />
+
     <TextView
-        android:id="@+id/tvUser"
+        android:id="@+id/tvResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
-
-    <Button
-        android:id="@+id/btnUpdate1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="更新名字" />
-
-    <TextView
-        android:id="@+id/tvPostalCode"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
-
-    <Button
-        android:id="@+id/btnUpdate2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="更新邮政编码" />
 
 </LinearLayout>

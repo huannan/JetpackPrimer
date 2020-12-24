@@ -2,13 +2,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.nan.jetpackprimer">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,6 +22,7 @@
         <activity android:name=".livedata.simple1.NameActivity" />
         <activity android:name=".livedata.simple2.StockActivity" />
         <activity android:name=".livedata.simple3.UserInfoActivity" />
+        <activity android:name=".livedata.simple4.TranslateActivity" />
     </application>
 
 </manifest>

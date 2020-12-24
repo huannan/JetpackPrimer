@@ -19,21 +19,21 @@ class UserInfoActivity : AppCompatActivity() {
         setContentView(R.layout.activity_user_info)
 
         viewModel.userName.observe(this, Observer<String> { userName ->
-            tvUser1.text = userName
+            tvUser.text = userName
         })
 
         btnUpdate1.setOnClickListener {
-            viewModel.user1.value = User("Wu", "Huannan")
+            viewModel.user.value = User("Wu", "Huannan")
         }
 
         //---------------------------
 
-        viewModel.user2.observe(this) { user ->
-            tvUser2.text = user.toString()
+        viewModel.postalCode.observe(this) { postalCode ->
+            tvPostalCode.text = postalCode
         }
 
         btnUpdate2.setOnClickListener {
-            viewModel.userId.value = "1"
+            viewModel.addressInput.value = "珠海"
         }
     }
 
