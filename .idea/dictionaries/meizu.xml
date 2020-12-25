@@ -1,12 +1,17 @@
 <component name="ProjectDictionaryState">
   <dictionary name="meizu">
     <words>
+      <w>constraintlayout</w>
+      <w>dailyword</w>
       <w>doctype</w>
+      <w>gson</w>
       <w>huannan</w>
       <w>infos</w>
       <w>jetpack</w>
       <w>jetpackprimer</w>
       <w>livedata</w>
+      <w>okhttp</w>
+      <w>squareup</w>
       <w>viewmodel</w>
       <w>workermanager</w>
     </words>
