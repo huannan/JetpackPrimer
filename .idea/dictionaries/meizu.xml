@@ -3,10 +3,12 @@
     <words>
       <w>doctype</w>
       <w>huannan</w>
+      <w>infos</w>
       <w>jetpack</w>
       <w>jetpackprimer</w>
       <w>livedata</w>
       <w>viewmodel</w>
+      <w>workermanager</w>
     </words>
   </dictionary>
 </component>

@@ -51,6 +51,13 @@
             android:text="ViewModel共享"
             app:routePath="com.nan.jetpackprimer.viewmodel.simple2.UserMainActivity" />
 
+        <com.nan.jetpackprimer.RouteButton
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WorkManager"
+            app:routePath="com.nan.jetpackprimer.workermanager.UploadActivity" />
+
     </LinearLayout>
 
 </ScrollView>

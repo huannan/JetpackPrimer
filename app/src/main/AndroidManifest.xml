@@ -25,6 +25,7 @@
         <activity android:name=".livedata.simple4.TranslateActivity" />
         <activity android:name=".viewmodel.simple1.UserInfoActivity" />
         <activity android:name=".viewmodel.simple2.UserMainActivity" />
+        <activity android:name=".workermanager.UploadActivity" />
     </application>
 
 </manifest>
