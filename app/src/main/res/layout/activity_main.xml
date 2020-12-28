@@ -13,6 +13,13 @@
             style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="Lifecycle基本使用"
+            app:routePath="com.nan.jetpackprimer.lifecycle.simple1.LocationActivity" />
+
+        <com.nan.jetpackprimer.RouteButton
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="LiveData基本使用"
             app:routePath="com.nan.jetpackprimer.livedata.simple1.NameActivity" />
 

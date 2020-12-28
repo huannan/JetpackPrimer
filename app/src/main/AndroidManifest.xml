@@ -5,6 +5,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+        android:name=".BaseApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -19,6 +20,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".lifecycle.simple1.LocationActivity" />
         <activity android:name=".livedata.simple1.NameActivity" />
         <activity android:name=".livedata.simple2.StockActivity" />
         <activity android:name=".livedata.simple3.UserInfoActivity" />
