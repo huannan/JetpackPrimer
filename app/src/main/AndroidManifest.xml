@@ -28,6 +28,7 @@
         <activity android:name=".viewmodel.simple1.UserInfoActivity" />
         <activity android:name=".viewmodel.simple2.UserMainActivity" />
         <activity android:name=".workermanager.UploadActivity" />
+        <activity android:name=".room.UserInfoActivity" />
     </application>
 
 </manifest>
